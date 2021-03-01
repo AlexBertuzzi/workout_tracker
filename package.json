@@ -9,11 +9,15 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBertuzzi/workout_tracker"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0"
   }
 }
