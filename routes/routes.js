@@ -19,10 +19,10 @@ router.get("/api/workouts", (req, res) => {
     db.Workout.aggregate([{
         $addFields: {
             totalDuration: {
-                $sum: "$exercise.duration"
+                $sum: "$exercises.duration"
             }
         }
-    }]    )
+    }])
     .then(dbWorkout => {
         res.json(dbWorkout);
     })
