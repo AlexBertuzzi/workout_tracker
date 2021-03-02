@@ -37,7 +37,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
   GitHub User Name: AlexBertuzzi
 
   ## GitHub Repo
-  GitHub Repo Name: https://github.com/AlexBertuzzi/Employee_Tracker
+  GitHub Repo Name: https://github.com/AlexBertuzzi/workout_tracker
 
   ## Deployed Link
   Deployed Link: https://alex-workout-tracker.herokuapp.com/
