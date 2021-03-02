@@ -1,7 +1,16 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+const mongojs = require("mongojs");
 
+const databaseUrl = "workout";
+const collection =["workouts"];
+const db = mongojs(databaseUrl, collection);
+
+ db.on("error", err => {
+     console.log(err)
+ });
+ 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
